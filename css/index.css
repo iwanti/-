@@ -1,0 +1,74 @@
+/*产品说明*/
+#main1{										/*容器样式*/
+	width: 1000px;				
+	height: auto;					
+	background: #eceaeb;		
+	margin: 0 auto;	
+	border-radius: 5px;
+	padding-bottom: 20px;		
+}
+#main1 .title_cp{							/*页面标题样式*/
+	line-height: 50px;
+	margin: 0 auto;
+	margin-left: 30px;
+	background: #eceaeb;
+}	
+#main1 .title_cp span{						/*页面标题中文样式*/
+	font-size: 20px;
+	font-family: microsoft yahei;
+	font-weight: bold;
+	color: #626567;
+}
+#main1 .title_cp tt{						/*页面标题英文样式*/
+	font-size: 20px;
+	font-family: microsoft yahei;
+	font-weight: bold;
+	color: #797D7F;
+	margin-left: 15px;
+}	
+#main1 .conent_cp{							/*内容区域样式*/
+	width: 950px;	
+	height: auto;
+	border: 1px solid #dbd8da;
+	border-radius: 10px;
+	background:url(../images/cp_bj.jpg) top repeat-x #ffff;
+	padding-top: 20px;
+	margin: 0 auto;
+}
+#main1 .conent_wrap{						/*内容容器样式*/
+	width: 900px;
+	margin: 0 auto;
+	background: white;
+}
+#main1 .conent_wrap .title_style{			/*标题容器样式*/
+	width: 900px;
+	border-bottom: 1px dashed #dcdcdc;
+	height: 70px;
+}
+#main1 .conent_wrap .title_style h1{		/*标题文字样式*/
+	margin: 0px;
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: bold;
+	font-family: microsoft yahei;
+	text-align: center;
+}
+#main1 .conent_wrap .title_style p{        /* 标题下文字样式*/
+	color: #AEB6BF;
+	text-align: center;
+}
+#main1 .conent_wrap .prod_bigimg{     		/*页面大图容器样式*/
+	width: 900px;
+	height: auto;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+#main1 .conent_wrap .prod_bigimg img{		/*页面大图样式*/
+	max-width: 100%;
+}
+#main1 .conent_wrap .bold{					/*产品说明标题样式*/
+	font-weight: bold;
+} 
+#main1 .conent_wrap p{						/*产品说明文字样式*/
+	color: #273746;
+}
